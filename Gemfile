@@ -56,8 +56,13 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+gem 'webpacker', '~> 3.3'
+
+#React gem for Rails
+gem 'react-rails'
+
 group :production do
-  gem 'pg'
+  #gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
